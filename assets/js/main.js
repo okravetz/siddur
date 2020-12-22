@@ -5,5 +5,5 @@ xmlhttp.onreadystatechange = function() {
     document.getElementById("demo").innerHTML = myArr[0];
   }
 };
-xmlhttp.open("GET", "https://www.sefaria.org/api/texts/Psalms.150", true);
+xmlhttp.open("GET", "https://www.sefaria.org/api/texts/Psalms%20150", true);
 xmlhttp.send();
