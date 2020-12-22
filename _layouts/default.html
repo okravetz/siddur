@@ -21,6 +21,7 @@
       content="Siddur Project"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="{{ "/assets/js/main.js" | relative_url}}"></script>
    <!--  <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | relative_url }}" type="image/x-icon" />
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"> -->
 
@@ -30,8 +31,8 @@
     <![endif]-->
   </head>
   <body>
-    <header>{%- include navigation.html -%}</header>
+    <header><!-- {%- include navigation.html -%} --></header>
     <main>{{ content }}</main >
-    <footer>{%- include footer.html -%}</footer>
+    <footer><!-- {%- include footer.html -%} --></footer>
   </body>
 </html>
