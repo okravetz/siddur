@@ -1,1 +1,15 @@
+baseurl: ""
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
 theme: jekyll-theme-cayman
